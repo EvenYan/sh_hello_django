@@ -2,37 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="968d958b-6c21-4108-8c7f-12bab383ffb3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/abd402ed-6571-41be-b403-1d3eb5eeef0d.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/hello_django.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.vscode/settings.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hello_django/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hello_django/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hello_django/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hello_django/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/one/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/one/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/one/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/one/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/one/migrations/0002_good.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/one/migrations/0003_peopleinfo.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/one/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/one/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/one/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/one/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/one/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/500.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/one/home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/one/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/echarts.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/js/jquery.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/one/charts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/one/detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/hello_django.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/hello_django.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello_django/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/hello_django/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/one/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/one/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/one/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/one/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,8 +74,14 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/js" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static/js" />
+      <recent name="$PROJECT_DIR$/static/css" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="hello_django" type="Python.DjangoServer" factoryName="Django server">
@@ -135,7 +120,7 @@
       <updated>1603951747518</updated>
       <workItem from="1603951748662" duration="246000" />
       <workItem from="1603952037725" duration="282000" />
-      <workItem from="1603952694224" duration="7826000" />
+      <workItem from="1603952694224" duration="9584000" />
     </task>
     <servers />
   </component>
@@ -155,9 +140,9 @@
       <screen x="0" y="23" width="1024" height="745" />
     </state>
     <state x="21" y="34" key="SettingsEditor/0.23.1024.745@0.23.1024.745" timestamp="1603952703076" />
-    <state x="177" y="92" width="670" height="676" key="search.everywhere.popup" timestamp="1603957813946">
+    <state x="177" y="92" width="670" height="676" key="search.everywhere.popup" timestamp="1603962113907">
       <screen x="0" y="23" width="1024" height="745" />
     </state>
-    <state x="177" y="92" width="670" height="676" key="search.everywhere.popup/0.23.1024.745@0.23.1024.745" timestamp="1603957813946" />
+    <state x="177" y="92" width="670" height="676" key="search.everywhere.popup/0.23.1024.745@0.23.1024.745" timestamp="1603962113907" />
   </component>
 </project>

@@ -1,17 +1,27 @@
-from django.shortcuts import render, reverse
+from django.shortcuts import render, reverse, redirect, get_object_or_404
 from django.http import HttpResponse, HttpResponseRedirect
 from one.models import *
 # Create your views here.
 
 
 def index1(request):
-    resp = HttpResponseRedirect(reverse("one:index2"))
+    resp = redirect(reverse("one:index2"))
     return resp
 
 
 def index2(request):
     return HttpResponse("新的接口")
 
+
+def static(request):
+    good_list = Good.objects.all()
+    context = {"good_list":good_list}
+    return render(request, 'one/charts.html', context=context)
+
+
+def detail(request, id):
+    good = get_object_or_404(Good, id=id)
+    return render(request, 'one/detail.html', context={"good":good})
 
 
 def home(request):
