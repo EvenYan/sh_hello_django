@@ -1,15 +1,7 @@
-{% load static %}
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>首页</title>
-    <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
-    <script src="{% static 'js/jquery.js' %}"></script>
-    <script src="{% static 'js/echarts.min.js' %}"></script>
-</head>
-<body>
+{% extends 'one/base.html' %}
+
+
+{% block main %}
     <p>
         Hello
     </p>
@@ -84,5 +76,9 @@ var option = {
 myChart.setOption(option);
           })
       </script>
-</body>
-</html>
+{% endblock %}
+
+{% block aside %}
+    侧边栏
+{% endblock %}
+

@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="968d958b-6c21-4108-8c7f-12bab383ffb3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/static/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/echarts.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/js/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/one/charts.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/one/detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/hello_django.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/hello_django.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hello_django/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/hello_django/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/one/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/one/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/one/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/one/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/one/charts.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/one/charts.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +112,7 @@
       <updated>1603951747518</updated>
       <workItem from="1603951748662" duration="246000" />
       <workItem from="1603952037725" duration="282000" />
-      <workItem from="1603952694224" duration="9584000" />
+      <workItem from="1603952694224" duration="10268000" />
     </task>
     <servers />
   </component>
