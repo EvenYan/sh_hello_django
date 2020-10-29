@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册页</title>
+</head>
+<body>
+
+<form action="{% url 'one:save_data' %}" method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    用户名：<input type="text" name="username" id=""> <br>
+    密码：<input type="password" name="password" id=""> <br>
+    确认密码：<input type="password" name="confirm_password" id=""> <br>
+    邮箱：<input type="text" name="email" id=""> <br>
+    文件：<input type="file" name="file" id=""> <br>
+    爱好：游泳<input type="checkbox" name="hobby" id="" value="游泳">
+    读书<input type="checkbox" name="hobby" id="" value="读书">
+    <input type="submit" value="注册">
+</form>
+</body>
+</html>
