@@ -11,5 +11,6 @@ urlpatterns = [
     url(r'^api_v1_save_data/$', save_data, name='save_data'),
     url(r'^static/$', static),
     url(r'^detail/(\d+)/$', detail, name='detail'),
-
+    url(r'^login/$', login, name='login'),
+    url(r'^deal_login/$', deal_login, name='deal_login'),
 ]
