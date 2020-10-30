@@ -10,7 +10,7 @@ def index1(request):
 
 
 def index2(request):
-    name = request.COOKIES.get('name')
+    name = request.session.get("name")
     context = {"name":name}
     return render(request, 'one/index.html', context=context)
 
@@ -55,6 +55,6 @@ def save_data(request):
     #         f.write(chunk)
 
     PeopleInfo.objects.create(name=name, password=password, email=email)
+    request.session["name"] = name
     resp = redirect(reverse("one:index1"))
-    resp.set_cookie("name", name, max_age=30)
     return resp
