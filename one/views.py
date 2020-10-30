@@ -10,7 +10,9 @@ def index1(request):
 
 
 def index2(request):
-    return HttpResponse("新的接口")
+    name = request.COOKIES.get('name')
+    context = {"name":name}
+    return render(request, 'one/index.html', context=context)
 
 
 def static(request):
@@ -53,4 +55,6 @@ def save_data(request):
     #         f.write(chunk)
 
     PeopleInfo.objects.create(name=name, password=password, email=email)
-    return HttpResponse("保存成功！")
+    resp = redirect(reverse("one:index1"))
+    resp.set_cookie("name", name, max_age=30)
+    return resp
